@@ -11,8 +11,8 @@
             UserInfo.getOrganizationName()
         );
         Test.stopTest();
-        System.assertEquals(50, [select count() from Account]);
-        System.assertEquals(300, [select count() from Contact
-                                  where AccountId <> null]);
+        System.assertEquals(50, [SELECT COUNT() FROM Account]);
+        System.assertEquals(300, [SELECT COUNT() FROM Contact
+                                  WHERE AccountId <> NULL]);
     }
 }
