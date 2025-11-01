@@ -1,3 +1,8 @@
+/**
+ * @author: Shumon Saha
+ *   @date: 15 November 2021
+ *   @link: https://www.salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records/
+ */
 global class PrepareMySandbox implements SandboxPostCopy
 {
 	global void runApexClass(SandboxContext context)
@@ -5,13 +10,21 @@ global class PrepareMySandbox implements SandboxPostCopy
 		/*
 		 * Insert sample Accounts
 		 */
-		StaticResource accountStaticResource = [SELECT Body FROM StaticResource WHERE Name = 'Account_csv'];
+		StaticResource accountStaticResource = [SELECT Body
+													FROM StaticResource
+														WHERE Name = 'Account_csv'];
 		String accountCsv = accountStaticResource.Body.toString();
 		Account[] accountList = new Account[] {};
 		for (String row : accountCsv.split('\n'))
 		{
 			String[] column = row.split(',');
-			accountList.add(new Account(Name = column[0], BillingState = column[1], Phone = column[2], Type = column[3]));
+			accountList.add(new Account
+			(
+						Name = column[0],
+				BillingState = column[1],
+					   Phone = column[2],
+						Type = column[3]
+			));
 		}
 		insert accountList;
 		
@@ -27,7 +40,9 @@ global class PrepareMySandbox implements SandboxPostCopy
 		/*
 		 * Insert related Contacts
 		 */
-		StaticResource contactStaticResource = [SELECT Body FROM StaticResource WHERE Name = 'Contact_csv'];
+		StaticResource contactStaticResource = [SELECT Body
+													FROM StaticResource
+														WHERE Name = 'Contact_csv'];
 		String contactCsv = contactStaticResource.Body.toString();
 		Contact[] contactList = new Contact[] {};
 		for (String row : contactCsv.split('\n'))
