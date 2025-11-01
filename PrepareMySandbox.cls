@@ -11,8 +11,8 @@ global class PrepareMySandbox implements SandboxPostCopy
 		 * Insert sample Accounts
 		 */
 		StaticResource accountStaticResource = [SELECT Body
-													FROM StaticResource
-														WHERE Name = 'Account_csv'];
+												FROM StaticResource
+												WHERE Name = 'Account_csv'];
 		String accountCsv = accountStaticResource.Body.toString();
 		Account[] accountList = new Account[] {};
 		for (String row : accountCsv.split('\n'))
