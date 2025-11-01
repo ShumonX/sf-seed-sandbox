@@ -41,8 +41,8 @@ global class PrepareMySandbox implements SandboxPostCopy
 		 * Insert related Contacts
 		 */
 		StaticResource contactStaticResource = [SELECT Body
-													FROM StaticResource
-														WHERE Name = 'Contact_csv'];
+												FROM StaticResource
+												WHERE Name = 'Contact_csv'];
 		String contactCsv = contactStaticResource.Body.toString();
 		Contact[] contactList = new Contact[] {};
 		for (String row : contactCsv.split('\n'))
