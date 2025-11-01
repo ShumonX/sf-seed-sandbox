@@ -48,7 +48,15 @@ global class PrepareMySandbox implements SandboxPostCopy
 		for (String row : contactCsv.split('\n'))
 		{
 			String[] column = row.split(',');
-			contactList.add(new Contact(FirstName = column[0], LastName = column[1], AccountId = accountMap.get(column[2]), Title = column[3], Phone = column[4], Email = column[5]));
+			contactList.add(new Contact
+			(
+				FirstName = column[0],
+				 LastName = column[1],
+				AccountId = accountMap.get(column[2]),
+					Title = column[3],
+					Phone = column[4],
+					Email = column[5]
+			));
 		}
 		insert contactList;
 	}
