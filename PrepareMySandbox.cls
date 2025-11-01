@@ -5,7 +5,7 @@ global class PrepareMySandbox implements SandboxPostCopy
 		/*
 		 * Insert sample Accounts
 		 */
-		StaticResource accountStaticResource = [select Body from StaticResource where Name = 'Account_csv'];
+		StaticResource accountStaticResource = [SELECT Body FROM StaticResource WHERE Name = 'Account_csv'];
 		String accountCsv = accountStaticResource.Body.toString();
 		Account[] accountList = new Account[] {};
 		for (String row : accountCsv.split('\n'))
@@ -27,7 +27,7 @@ global class PrepareMySandbox implements SandboxPostCopy
 		/*
 		 * Insert related Contacts
 		 */
-		StaticResource contactStaticResource = [select Body from StaticResource where Name = 'Contact_csv'];
+		StaticResource contactStaticResource = [SELECT Body FROM StaticResource WHERE Name = 'Contact_csv'];
 		String contactCsv = contactStaticResource.Body.toString();
 		Contact[] contactList = new Contact[] {};
 		for (String row : contactCsv.split('\n'))
