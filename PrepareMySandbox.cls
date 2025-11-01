@@ -1,7 +1,7 @@
 /**
- * @author: Shumon Saha
- *   @date: 15 November 2021
- *   @link: https://www.salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records/
+ * @author Shumon Saha
+ * @since 15 November 2021
+ * @link https://www.salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records/
  */
 global class PrepareMySandbox implements SandboxPostCopy
 {
