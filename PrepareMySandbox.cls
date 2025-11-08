@@ -1,7 +1,7 @@
 /**
- * @author Shumon Saha
- * @since 15 November 2021
- * @link https://www.salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records/
+ * @author Shumon Saha ✍🏽
+ * @since 15 November 2021 📅
+ * @link https://www.salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records/ 🔗
  * 
  * Code is indented using Allman Style.
  * Opening curly brace brackets are on new lines to vertically align with closing curly brace brackets.
