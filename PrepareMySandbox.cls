@@ -10,6 +10,8 @@
  * 
  * All code is contained within an 80 character right margin, preventing a horizontal scroll bar.
  * Indentations are tabs, not spaces, to reduce the number of character used.
+ *
+ * Single SOQL statments are broken into multiple lines, in a staircase indentation.
  */
 global class PrepareMySandbox implements SandboxPostCopy
 {
