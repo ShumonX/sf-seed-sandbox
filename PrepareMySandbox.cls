@@ -9,6 +9,7 @@
  * However, the opening brace is on the previous line, and never aligns with the closing brace.
  * 
  * All code is contained within an 80 character right margin, preventing a horizontal scroll bar.
+ * I hate horizontal scroll bars in code 😡
  * Indentations are tabs, not spaces, to reduce the number of character used.
  *
  * Single SOQL statments are broken into multiple lines, in a staircase indentation.
