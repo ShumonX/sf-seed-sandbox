@@ -13,8 +13,8 @@ global class PrepareMySandbox implements SandboxPostCopy
 		StaticResource accountStaticResource =
 		[
 			SELECT Body
-			  FROM StaticResource
-			 WHERE Name = 'Account_csv'
+				FROM StaticResource
+					WHERE Name = 'Account_csv'
 		];
 		String accountCsv = accountStaticResource.Body.toString();
 		Account[] accountList = new Account[] {};
@@ -46,8 +46,8 @@ global class PrepareMySandbox implements SandboxPostCopy
 		StaticResource contactStaticResource =
 		[
 			SELECT Body
-			  FROM StaticResource
-			 WHERE Name = 'Contact_csv'
+				FROM StaticResource
+					WHERE Name = 'Contact_csv'
 		];
 		String contactCsv = contactStaticResource.Body.toString();
 		Contact[] contactList = new Contact[] {};
