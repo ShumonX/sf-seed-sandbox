@@ -2,6 +2,14 @@
  * @author Shumon Saha
  * @since 15 November 2021
  * @link https://www.salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records/
+ * 
+ * Code is indented using Allman Style.
+ * Opening curly brace brackets are on new lines to vertically align with closing curly brace brackets.
+ * K&R style is used in most text books and websites.
+ * However, the opening brace is on the previous line, and never aligns with the closing brace.
+ * 
+ * All code is contained within an 80 character right margin, preventing a horizontal scroll bar.
+ * Indentations are tabs, not spaces, to reduce the number of character used.
  */
 global class PrepareMySandbox implements SandboxPostCopy
 {
