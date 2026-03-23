@@ -1,16 +1,14 @@
 /**
- * @author ✍🏽 Shumon Saha
- * @since 📅 15 November 2021
- * @link 🔗 https://www.salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records/
+ * @author ShumonX
+ * @link https://www.salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records/
+ * @since 15 November 2021
+ * @version 1.1
  * 
- * Code is indented using Allman Style.
- * Opening curly brace brackets are on new lines to vertically align with closing curly brace brackets.
- * K&R style is used in most text books and websites.
- * However, the opening brace is on the previous line, and never aligns with the closing brace.
+ * Code is indented using Allman Style — opening curly brace brackets are on new lines to vertically align with closing curly brace brackets —
+ * and not in K&R style as taught in most schools, textbooks, and websites — where the opening brace is on the previous line, and never aligns with the closing brace.
  * 
- * All code is contained within an 80 character right margin, preventing a horizontal scroll bar.
- * I hate horizontal scroll bars in code 😡
- * Indentations are tabs, not spaces, to reduce the number of character used.
+ * All code is contained within an 80 character right margin, preventing an ugly horizontal scroll bar.
+ * Indentations are tabs, not spaces, to reduce the number of characters used as Apex has a limit of 6 MB per org.
  *
  * Single SOQL statments are broken into multiple lines, in a staircase indentation.
  */
