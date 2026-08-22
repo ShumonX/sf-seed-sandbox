@@ -1,7 +1,7 @@
 /**
- * @author ShumonX
- * @link salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records
- * @since 15 November 2021
+ * @author  Public Domain
+ * @link    salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records
+ * @since   15 November 2021
  * @version 1.1
  * 
  * Code is indented using Allman Style — opening curly brace brackets are on new
