@@ -1,5 +1,5 @@
 /**
- * @author  Public Domain
+ * @author  Shumon Saha
  * @link    salesforceben.com/auto-populate-salesforce-sandboxes-with-sample-records
  * @since   15 November 2021
  * @version 1.1
