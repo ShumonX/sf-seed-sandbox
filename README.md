@@ -1,4 +1,4 @@
-# Salesforce-sandbox-seed
+# Salesforce-Sandbox-Seeding
 Propagate data to sandboxes for faster innovation and ideal training environments with Sandbox Seeding.
 
 Link to my article on Salesforce Ben:
